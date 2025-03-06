@@ -1,0 +1,599 @@
+/*NAAAAAVBAAAAAAAAAAAAARRRRRRRRRRR*/
+
+  
+    
+.two{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: #F8F8F8;
+    color: #082E0A;
+}
+.navbar ul{
+    margin-top: 0%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    background-color: #F8F8F8;
+border-right: 1px solid orange;
+}
+.navbar ul li a{
+    text-decoration: none;
+    
+    color: black;
+    
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.navbar ul li a:hover{
+    color: #EB1000; 
+}
+
+@media only screen and (max-width:600px){
+
+
+    .two{
+        width: 55%;
+        height: 10%;
+    }
+ .two h2{
+    font-size: 10px;
+ }
+ .navbar ul li a{
+    font-size: 10px;
+    margin-left: 15px;
+ }
+ 
+}
+
+
+/*MAIN PAGE */
+
+.main {
+    height: 1000px;width: 1265px;
+    margin-top: 60px;
+    
+    
+}
+
+.main img{
+    height: 50%;
+
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 15%;
+    border-radius: 20px;
+    
+}
+.main a img:hover{
+transform: scale(1.02);
+transition: 1s ease-out;
+}
+@media only screen and (max-width:600px){
+    .main img{
+        margin-left: 0%;
+        height: 40%;
+        width: 35%;
+
+    }
+   
+}
+
+
+/*FOOOOOOOOOOOOOOOOOOOOOOTTTTTTTTTTEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRR*/
+
+.footer{
+color: white;
+    background-color: black;
+
+display: flex;
+}
+
+.info{
+
+    text-align: center;
+    width: 33%;
+}
+.Links{
+    width: 33%;
+    text-align: center;
+}
+.About{
+text-align: center;
+    width: 34%;
+}
+
+.f ul{
+    list-style: none;
+}
+.f ul  a:hover{
+    transform: scale(1.1);
+transition: 1s ease-out;
+}
+
+.Links ul{
+    list-style: none;
+}
+.Links ul li a{
+    text-decoration: dashed;
+    color: white;
+}
+.Links ul li a:hover{
+    color: #EB1000;
+}
+
+@media only screen and (max-width:600px){
+    .footer{
+        width: 55%;
+
+    }
+    .footer ul li {
+        font-size: 60%;
+    }
+    .About p{
+        font-size: 60%;
+    }
+    .c{
+        width: 55%;
+    }
+    .c p{
+        font-size: 60%;
+    }
+    .footer h3{
+font-size: 80%;
+    }
+}
+
+
+/*WELCOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEE*/
+.def{
+    display: flex;
+    justify-content: space-between;
+}
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro h1{
+    text-align: center;
+    color: #082E0A;
+}
+
+.intro a button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    height: 60px;
+    width: 20   0px;
+    background-image: linear-gradient(to right, rgb(71, 141, 71),rgb(34, 61, 34));
+    color: white;
+    cursor: pointer;
+}
+
+
+.main p{
+    text-align: center;
+}
+
+
+.ine p{
+    width: 70%;
+}
+
+.def{
+    height: 1000px;
+}
+
+.ine p h2{
+    color: #082E0A;
+}
+
+
+.reg a button{
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    height: 60px;
+    width: 20   0px;
+    background-image: linear-gradient(to right, rgb(71, 141, 71),rgb(34, 61, 34));
+    color: white;   
+}
+
+
+
+
+
+/*GALLLLLLLLLLLLLLLLLLLLLLLLLEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRYYYYYYYYYYYYYYYYYYYYYYY*/
+
+.h1 h1{
+    margin-top: 65px;
+    
+    text-align: center;
+    color: #082E0A;
+}
+.aik{
+    display: flex;
+}
+.andr{
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.andr h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+    text-align: center;
+    color: #082E0A;  
+}
+.doo{
+    width: 50%;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
+}
+.andr img{
+    height: 250px;
+    width: 250px;
+}
+.doo h2{
+    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+    text-align: center;
+    color: #082E0A;  
+
+}
+.hs{
+    display: flex;
+    overflow: scroll;
+}
+.hs img{
+border: 1px solid green;
+    height: 300px;
+    width: 300px;    
+}
+
+@media only screen and (max-width:600px){
+    .h1 h1{
+        font-size: 90%;
+        text-align: start;
+    }
+    .aik{
+        max-width: 55%;
+        height: 50%;
+    }
+    .andr h2{
+        font-size: 60%;
+    }
+   .andr img{
+    height: 30%;
+    width: 50%;
+   }
+   .doo h2{
+    font-size: 60%;
+   }
+   .doo{
+    font-size: 30%;
+   }
+}
+
+
+
+
+/*CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPUUUUUUUUUUUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+.cmp h1{
+ 
+    margin-top: 65px;
+    
+    text-align: center;
+    color: #082E0A;   
+}
+.cmp {
+    width: 90%;
+}
+@media only screen and (max-width:600px) {
+    .cmp {
+        width: 55%;
+    }
+    .cmp h1{
+        font-size: 70%;
+    }
+    .cmp h2{
+        font-size: 70%;
+    }
+    .cmp p{
+        font-size: 50%;
+    }
+}
+
+
+/*ACCCCCCCCCCCCCCCCCCCCCCCCCCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCCCCCCCCCCCCCDDDDDDDDEEEEEEEEEEEEEEEMMMMMMMMMMIIIIIIIICCCCCCCCCCSSSSSSSSSSSSSSSSS*/
+.aca h1{
+    
+    margin-top: 65px;
+    
+    text-align: center;
+    color: #082E0A;   
+}
+
+.aca h2{
+    color: #082E0A;  
+}
+.aca h3{
+    color: #082E0A;  
+}
+@media only screen and (max-width:600px){
+    .aca{
+        width: 55%;
+    }
+    .aca h1{
+        font-size: 70%;
+    }
+    .aca h2{
+        font-size: 70%;
+    }
+    .aca h3{
+        font-size: 70%;
+    }
+    .aca p{
+        font-size: 50%;
+    }
+}
+
+/*ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT*/
+
+.abt h1{
+    
+    margin-top: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #082E0A;   
+}
+
+.abt h2{
+    
+    color: #082E0A;   
+font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (max-width:600px) {
+    .abt{
+        width: 55%;
+    }
+    .abt h1 {
+        font-size: 70%;
+    }
+    .abt h2{
+        font-size: 70%;
+    }
+    .abt p{
+        font-size: 60%;
+    }
+}
+/*COOOOOOOOOOOOOOOOOOOONNNNNNNNNNNNNNNNNNNNNNNNNTTTTTTTTTTTTTTTTTTAAAAAAAAAAAAAAACTTTTTTTTTTTTTTTTTT*/
+.cnt h1 {
+    
+    margin-top: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #082E0A;   
+}
+.cnt{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:600px){
+    .cnt{
+        max-width: 50%;
+    }
+    .cnt h1{
+        text-align: center;
+        font-size: 90%;
+    }
+    .cnt h2{
+        font-size: 90%;
+    }
+    .cnt{
+        font-size: 60%;
+    }
+    .cnt hr{
+        width: 50%;
+    }
+    .hr{
+        width: 50%;
+    }
+}
+
+/*hoooooooooooooooooooooooooooommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+.hm {
+    margin-top: 65px;
+
+}
+.hm img{
+    margin-left: 30%;
+    height: 300px;
+    width: 400px ;
+}
+
+.ba button{
+    background-image: linear-gradient(to right,rgb(71, 141, 71),rgb(34, 61, 34));
+    margin-left: 45%;
+    color: white;
+    font-family: cursive;font-size: larger;
+
+}
+.ba button:hover{
+    transform: scale(1.2);
+    transition: 1s ease-out;
+}
+.p{
+    width: 60%;
+}
+.p h1{
+    color: #082E0A;
+}
+
+@media only screen and (max-width:600px){
+    .hm{
+        width: 55%;
+        font-size: 50%;
+    }
+    .hm img {
+        width: 200px;
+        height: 150px;
+    }
+    .ba  button{
+        font-size: small;
+        margin-left: 2%;
+    }
+    .p h1{
+        font-size: 50%;
+    }
+    .p{
+        font-size: 50%;
+        width: 50% ;
+    }
+}
+
+/*NEEEEEEEEEEEEEEEEEEEEEWWWWWWWWWWWWWWWWWWWSSSSSSSSSSSS ADN EVENTS*/
+
+.events h1{
+    margin-top: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #082E0A;   
+
+}
+
+.ticker-wrap {
+    position: relative;
+ z-index: 1;
+    color: black;
+    width: 300px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-image: linear-gradient(to right,wheat,rgb(137, 98, 27));
+    border-radius: 70px;
+  }
+  
+  .ticker-move {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: ticker-move 30s linear infinite;    
+  }
+  
+  .ticker-item {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  @keyframes ticker-move {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+      }
+    }
+      
+
+    /*reggggggggggggggggggggggggggisssssssssettrrrrrraaaaaaaaaaaaaaiottttoin*/
+    .reg-form{
+        background-color: #082E0A;
+        color: #ccc;
+        text-align: center;
+        margin-left: 40%;
+    }
+
+    .btnuu button{
+     
+    background-image: linear-gradient(to right,rgb(71, 141, 71),rgb(34, 61, 34));   
+color: white;
+    }
+    .btnuu button:hover{
+        cursor: pointer;
+    }
+
+
+    @media only screen and (max-width:600px){
+        .intro {
+            width: 600px;
+        }
+        .nn{
+            width: 600px;
+        }
+        .def{
+            width: 600px;
+        }
+    }
+
+    @media only screen and (max-width:600px){
+        .navbar ul{
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar li{
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media only screen and (max-width:600px) {
+        .events{
+            width: 55%;
+        }
+        .events h1{
+            font-size: 70%;
+        }
+        .ticker-move{
+            width: 50%;
+            height: 50%;
+        }
+        .ticker-wrap{
+            
+            width: 55%;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .ticker-item{
+            font-size: 50%;
+        }
+    }
+    
+    @media  only screen and (max-width:600px){
+        .hs{
+            width: 55%;
+
+        }
+        .hs img{
+height: 30%;
+width: 30%;
+        }
+    }
+
+    @media only screen and(max-width:600px){
+        .btnuu button{
+            margin-left: 10%;
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-width:600px) {
+        .two{
+            justify-content: space-between;
+        }
+        .two .navbar {
+            overflow: scroll;
+        }
+    }
